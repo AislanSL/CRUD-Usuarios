@@ -1,28 +1,29 @@
-# Nome do Seu Projeto
+# CRUD USUÁRIOS COM RUBY ON RAILS
 
 ## Descrição
-Uma breve descrição do que a sua aplicação faz.
+Nesta simples aplicação será possível realizar todas as operação CRUD de um usuário em um sistema.
 
 ## Funcionalidades
-- Lista das principais funcionalidades da sua aplicação.
+- Create (criar)
+- Read (ler)
+- Update (atualizar)
+- Delete (apagar)
 
 ## Tecnologias Utilizadas
-- Liste as principais tecnologias/frameworks utilizados.
+- Ruby
+- Ruby on rails
+- sqlite3
+- json
+- yarn
 
 ## Pré-requisitos
 - Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
-  - Ferramenta 1
-  - Ferramenta 2
-  - ...
-
-## Instalação
-1. Clone o repositório: `git clone https://github.com/seu-usuario/seu-projeto.git`
-2. Navegue até o diretório do projeto: `cd seu-projeto`
-3. Instale as dependências: `npm install` ou `yarn install`
-
-## Configuração
-1. Copie o arquivo de exemplo de configuração: `cp config.example.js config.js`
-2. Edite o arquivo `config.js` e insira as configurações necessárias.
+  - Ruby
+  - Ruby on rails
+  - yarn
+  - sqlite3
+  - IDE
 
 ## Uso
-Explique como iniciar a aplicação e como realizar operações CRUD.
+No terminal de o seguinte comando para inicualizar o servidor 
+- rails server
