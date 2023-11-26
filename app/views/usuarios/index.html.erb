@@ -1,0 +1,9 @@
+<h1>Usuários</h1>
+
+
+<% @usuarios.each do |usuario| %>
+    <p>Usuário: <%=link_to usuario.user, usuario %></p>
+<% end %>
+
+<%= link_to "Novo Usuário", new_usuario_path %>
+

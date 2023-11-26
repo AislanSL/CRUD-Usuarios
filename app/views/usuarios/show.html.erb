@@ -1,0 +1,10 @@
+<h1>Ususario</h1>
+
+<p>Nome: <%= @usuario.name %>
+<p>User: <%= @usuario.user %>
+<p>E-mail: <%= @usuario.email %>
+<p>Senha: <%= @usuario.password %>
+
+<p><%= link_to "Editar", edit_usuario_path(@usuario)%></p>
+<p><%= link_to "Destroy", usuario_path(@usuario), data: {turbo_method: :delete, turbo_confirm: "Tem certeza?"} %>
+<p><%= link_to "Inicio", root_path%></p>
